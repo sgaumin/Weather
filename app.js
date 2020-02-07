@@ -39,7 +39,7 @@ window.addEventListener('load', ()=>{
 				temperatureSection.addEventListener('click', () => {
 					if(temperatureSpan.textContent === "°F"){
 						temperatureSpan.textContent = "°C";
-						temperatureDegree.textContent = Math.floor(celcius);
+						temperatureDegree.textContent = celcius.toFixed(2);
 					}else{
 						temperatureSpan.textContent = "°F";
 						temperatureDegree.textContent = temperature;
