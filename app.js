@@ -2,10 +2,10 @@ window.addEventListener('load', ()=>{
 	let long;
 	let lat;
 	
-	let temperatureDegree = document.querySelector(".temperature-degree");
-	let temperatureDescription = document.querySelector(".temperature-description");
-	let temperatureSection = document.querySelector(".temperature");
-	let temperatureSpan = document.querySelector(".temperature span");
+	let temperatureDegree = document.querySelector(".temperature-degree-value");
+	let temperatureDescription = document.querySelector(".temperature-description-section");
+	let temperatureSection = document.querySelector(".temperature-section");
+	let temperatureSpan = document.querySelector(".temperature-section span");
 	let locationTimezone = document.querySelector(".location-timezone");
 	
 	if(navigator.geolocation){
